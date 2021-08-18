@@ -36,6 +36,6 @@ Guest users have restricted Azure AD organization permissions. When you invite s
 
 # Delete User accounts
 - Azure CLI `az ad user delete`
-- PowerShell `Remove-AzureADUSer`
+- PowerShell `Remove-AzureADUSer` </br>
 When deleting a user, the account remains in a suspened state for *30 days* and during that period it can be restored.
 
