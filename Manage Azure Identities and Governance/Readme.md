@@ -19,5 +19,5 @@ Azure AD uses permissions to help you control the access rights a user or group 
 Administrator roles in Azure AD allow users elevated access to control who is allowed to do what. You assign these roles to a limited group of users to manage identity tasks in Azure AD organization. You can assign administrator roles that allow a user to create or edit users, assign administative roles to others, reset user passwords, manage user licenses and more. <br>
 If a user account has the User Administator or Global Administrator role, you can create a new user in Azure AD by using: <br>
 1. Azure portal
-2. Azure CLI :  **az ad user crete**
-3. PowerShell: **New-AzureADUser**
+2. Azure CLI :  `az ad user crete`
+3. PowerShell: `aNew-AzureADUser`
