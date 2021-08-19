@@ -53,3 +53,8 @@ Users can be deleted as shown below </br>
 ![Delete User](images/delete_user.png) </br>
 Deleted users can be restored in 30 days after deletion. </br>
 ![Restore Deleted User](images/restore_user.png) </br>
+
+
+### Exercise
+Create an Azure Active Directory (Azure AD) Group to manage the developer team's access. Also add a rule for the group to manage the memberships automatically.
+![Groups](images/group.png)
