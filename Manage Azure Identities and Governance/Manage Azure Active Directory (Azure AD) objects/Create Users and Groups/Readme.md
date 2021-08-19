@@ -48,7 +48,7 @@ https://docs.microsoft.com/en-us/learn/modules/create-users-and-groups-in-azure-
 First you have to create a new tenenat. In this case we created the `roiumi` tenant.</br>
 ![Create New Tenant](/images/create_tenant.png)</br>
 After creating a tenant, we can add users to that tenant. In this case we will add user `username`. </br>
-![Create user](/images/create_user.png) </br>
+![Create user](images/create_user.png) </br>
 Users can be deleted as shown below </br>
 ![Delete User](/images/delete_user.png) </br>
 Deleted users can be restored in 30 days after deletion. </br>
