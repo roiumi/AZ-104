@@ -69,4 +69,4 @@ Tasks:
 2. Add guest user to group
 ![User added to group](images/add_user_to_group.png)
 3. Add guest user to a organization
-![User has acess to Application](imgaes/add_guest_user_to_app.png)
+![User has acess to Application](images/user_to_app.png)
