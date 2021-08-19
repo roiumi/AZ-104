@@ -32,6 +32,7 @@ Guest users have restricted Azure AD organization permissions. When you invite s
 - Azure CLI ` az ad user create`
 - PowerShell `New-AzureADUser`
 * Bulk Create
+You can bulk create member users and guest accounts. 
 - PowerShell:
 
 # Delete User accounts
@@ -39,3 +40,16 @@ Guest users have restricted Azure AD organization permissions. When you invite s
 - PowerShell `Remove-AzureADUSer` </br>
 When deleting a user, the account remains in a suspened state for *30 days* and during that period it can be restored.
 
+#### Exercise:
+You need to add member user account for the new developer team in your ogranization. Create a new Azure Active Directory (Azure AD) organization to hold all of your user accounte, create a user account, delete a user account and recover a deleted user account.</br>
+
+https://docs.microsoft.com/en-us/learn/modules/create-users-and-groups-in-azure-active-directory/5-exercise-assign-users-azure-ad-groups </br>
+
+First you have to create a new tenenat. In this case we created the `roiumi` tenant.</br>
+![Create New Tenant](/images/create_tenant.png)</br>
+After creating a tenant, we can add users to that tenant. In this case we will add user `username`. </br>
+![Create user](/images/create_user.png) </br>
+Users can be deleted as shown below </br>
+![Delete User](/images/delete_user.png) </br>
+Deleted users can be restored in 30 days after deletion. </br>
+![Restore Deleted User](/images/restore_user.png) </br>
