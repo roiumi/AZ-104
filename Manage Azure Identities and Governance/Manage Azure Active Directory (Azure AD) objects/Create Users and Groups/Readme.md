@@ -58,3 +58,15 @@ Deleted users can be restored in 30 days after deletion. </br>
 ### Exercise
 Create an Azure Active Directory (Azure AD) Group to manage the developer team's access. Also add a rule for the group to manage the memberships automatically.
 ![Groups](images/group.png)
+
+
+### Exercise
+Give Guest user access in Azure Active Directory B2B
+The external and internal developer teams want to work together so you decide to create guest user access for the external development team. You'll use the Azure portal to invite business-to-business (B2B) collaboration users. You can invite guest users to an Azure Active Directory (Azure AD) domain, group or application.  After you invite a user, their account is added to Azure AD  with a guest user type.
+Tasks:
+1. Add guest user to organization
+![Invite User to Azure AD](images/invite_user.png)
+2. Add guest user to group
+![User added to group](images/add_user_to_group.png)
+3. Add guest user to a organization
+![User has acess to Application](imgaes/add_guest_user_to_app.png)
