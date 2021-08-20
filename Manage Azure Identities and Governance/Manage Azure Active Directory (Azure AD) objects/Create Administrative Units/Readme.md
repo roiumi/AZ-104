@@ -18,5 +18,7 @@ In Azurea Active Directory (Azure AD) an administrative unit is a resource that 
 ![Adding Group to Administrative Unit](images/add_group_to_AU.png)
 2. Adding users from powerShell
 
-``
+`$adminUnitObj = Get-AzureADMSAdministrativeUnit -Filter "displayname eq 'Test administrative unit 2'"` </br>
+`$userObj = Get-AzureADUser -Filter "UserPrincipalName eq 'bill@example.onmicrosoft.com'"` </br>
+`Add-AzureADMSAdministrativeUnitMember -Id $adminUnitObj.Id -RefObjectId $userObj.ObjectId` </br>
 -
